@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Jewel - Developer Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar h-nav-resp">
+    <div class="left">
+      <p style="cursor: pointer;">MyPortfolio</p>
+    </div>
+    <div class="right">
+      <ul class="navlist v-class-resp">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <div id="burger" onclick="onClickMenu()">
+      <div class="bar" id="bar1"></div>
+      <div class="bar" id="bar2"></div>
+      <div class="bar" id="bar3"></div>
+    </div>
+  </nav>
+  <main>
+    <section class="first-section">
+      <div class="left1">
+        <img src="deve.png" alt="Developer" />
+      </div>
+      <div class="right1">
+        Hi! I am <span class="gold">Jewel Hossain</span>
+        <div>and I am a </div>
+        <div class="word">
+          <span class="w">
+            Frontend Developer<br>
+            UI/UX Developer<br>
+            Backend Developer<br>
+            Android Developer
+          </span>
+        </div>
+      </div>
+    </section>
+    <section class="second-section">
+      <div class="left2">
+        I'm Jewel Hossain, a passionate BTech student specializing in Computer
+        Science with a focus on IoT and a dedicated web developer.<br><br> I'm on a
+        mission to create captivating web experiences by merging aesthetics
+        and functionality, always pushing the boundaries of what's possible.
+        With a knack for problem-solving and a commitment to excellence, I
+        thrive on crafting elegant solutions to complex challenges.<br><br> Let's
+        collaborate to turn your digital dreams into reality, one line of code
+        at a time - I'm here to make it happen.<br><br>
+        <a download="#"><button class="CV">Download My CV</button></a>
+      </div>
+    <div class="right2">
+        <img src="mypic1.jpg" alt="My pic" class="mypic1">
+      </div>
+    </section>
+    <section class="third-section">
+      <div class="project">Projects</div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="image">
+            <img src="amazon clone.png" alt="Clone" style="height: 250px" />
+          </div>
+          <div class="title">
+            <h1>Commercial website</h1>
+          </div>
+          <div class="description">
+            <p>
+              Explore a meticulously crafted replica of a popular commercial
+              weather website, showcasing my web development skills in
+              creating an identical user experience
+            </p>
+            <br />
+            <button class="buttn">Show more</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="quiz app.jpg" alt="Quiz" style="height: 250px" />
+          </div>
+          <div class="title">
+            <h1>Quiz website</h1>
+          </div>
+          <div class="description">
+            <p>
+              Dive into a feature-rich quiz website meticulously designed and
+              developed by me, offering engaging quizzes and interactive
+              experiences
+            </p>
+            <br />
+            <button class="buttn">Show more</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image weather">
+            <img src="weather app.png" alt="Weather" style="height: 250px" />
+          </div>
+          <div class="title">
+            <h1>Weather website</h1>
+          </div>
+          <div class="description">
+            <p>
+              Experience precision and visually appealing weather updates on
+              my custom-built website, showcasing my web development expertise
+            </p>
+            <br />
+            <button class="buttn">Show more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fourth-section">
+      <div class="socials">
+        <div class="heading">
+          <p>My Socials</p>
+        </div>
+        <div class="icons">
+          <div class="instagram">
+            <a href="https://www.instagram.com/jewelh2003/" class="fa fa-instagram" style="font-size: 30px;"></a>
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/JewelH2003" class="fa fa-twitter" style="font-size: 30px;"></a>
+          </div>
+          <div class="github">
+            <a href="https://github.com/JewelH9" class="fa fa-github" style="font-size: 30px;"></a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/jewel-hossain-40b0a9257/" class="fa fa-linkedin"
+              style="font-size: 30px;"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fifth-section">
+      <form class="Contact">
+        <div class="cont">
+          Contact
+        </div>
+        <label for="name">
+          Name:
+        </label>
+        <br>
+        <input type="text" id="name1" placeholder="Enter your name.." style="color: white;">
+        <br><br><br>
+        <label for="email">
+          E-mail:
+        </label>
+        <br>
+        <input type="email" id="name1" placeholder="Enter your email.." style="color: white;">
+        <br><br><br>
+        <label for="Message">
+          Your Message:
+        </label>
+        <br>
+        <br>
+        <textarea id="textarea" placeholder="Write Your Message here.."></textarea>
+        <br>
+        <br>
+        <button class="sub">Submit</button>
+      </form>
+
+    </section>
+    <footer>
+      <p class="copy">
+        Copyright &copy;2023 Jewel Hossain. All Rights Reserved.
+      </p>
+    </footer>
+  </main>
+  <script src="/script.js"></script>
+</body>
+
+</html>
